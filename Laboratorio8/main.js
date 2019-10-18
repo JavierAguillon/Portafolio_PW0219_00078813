@@ -29,7 +29,7 @@ let new_btn= document.createElement("button")
 
 new_btn.className = "btn btn-danger"
 new_btn.innerText = "!#$%&?"
-new_btn.value = element.id
+new_btn.value = element.id // ya no es serial porque da error y no da el valor de el id
 
 new_btn.addEventListener("click", event =>{
 let id_actual = event.target.value
