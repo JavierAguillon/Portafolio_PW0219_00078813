@@ -119,7 +119,7 @@
         }
         return "A tiempo"
     }
-
+z
     /*
         Listener para detectar el click en el boton
     */
